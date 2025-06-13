@@ -30,10 +30,8 @@ function Footer() {
           <a href="https://www.pinterest.com" target="_blank" rel="noopener noreferrer">Pinterest</a>
         </div>
 
-        <div className="footer-newsletter">
-          <p>✨ Stay updated with the latest looks, tips & offers</p>
-          <input type="email" placeholder="Your email address" />
-          <button type="submit">Subscribe</button>
+        <div className="footer-contact">
+          <p>📞 Call / WhatsApp: <a href="tel:8839183681">8839183681</a></p>
         </div>
 
         <p className="footer-credit">© 2025 Akshita Gupta | Designed with ❤️ by Tisha</p>

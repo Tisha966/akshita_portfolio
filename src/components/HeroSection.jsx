@@ -1,14 +1,30 @@
 import React from 'react';
+ // Replace with your actual CSS file name
 
 function HeroSection() {
   return (
     <section className="hero">
       <div className="image-row">
-        <img src="/images/hero1.jpg" alt="makeup1" />
-        <img src="/images/hero2.jpg" alt="makeup2" />
-        <img src="/images/hero3.jpg" alt="makeup3" />
+        <img src={`${process.env.PUBLIC_URL}/images/hero1.jpg`} alt="makeup1" />
+        <img src={`${process.env.PUBLIC_URL}/images/hero3.jpg`} alt="makeup3" />
+        <img src={`${process.env.PUBLIC_URL}/images/hero2.jpg`} alt="makeup2" />
+        
       </div>
-      <h2><span className="mua">MUA</span> based in <span className="location">India</span></h2>
+ <h2
+  style={{
+    fontSize: '2rem',
+    fontWeight: 600,
+    marginTop: '20px',
+    textAlign: 'center',
+  }}
+>
+  Unveiling <span style={{ color: '#d5a373' }}>Beauty</span>, One{' '}
+  <span style={{ color: '#d5a373' }}>Brushstroke</span> at a Time — by{' '}
+  <span style={{ color: '#d5a373' }}>Akshita Gupta</span>
+</h2>
+
+
+
     </section>
   );
 }

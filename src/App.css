@@ -326,3 +326,271 @@ blockquote {
   font-size: 12px;
   color: #666;
 }
+.service-intro {
+  font-size: 16px;
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+  line-height: 1.6;
+}
+
+
+.service-card h3 {
+  font-size: 18px;
+  margin-top: 12px;
+  margin-bottom: 4px;
+  color: #7e4f39;
+}
+
+.service-card .desc {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.4;
+}
+.hero {
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* ✅ Images occupy ~65% of the screen height */
+.image-row {
+  display: flex;
+  width: 100%;
+  height: 65vh;
+}
+
+.image-row img {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ✅ Text appears *after* images, in full width */
+.hero-text {
+  margin: 0;
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.mua,
+.location {
+  color: #d5a373;
+}
+
+/* ✅ Mobile Responsive */
+@media (max-width: 768px) {
+  .image-row {
+    height: 45vh;
+  }
+
+  .hero-text {
+    font-size: 1.5rem;
+    padding: 20px 10px;
+  }
+}
+.about-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.about-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.img-main {
+  width: 240px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.img-main:hover {
+  transform: scale(1.05);
+}
+
+.img-small {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.img-small:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .about-wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-images {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .img-main {
+    width: 180px;
+    height: 240px;
+  }
+
+  .img-small {
+    width: 120px;
+    height: 120px;
+  }
+}
+.about-stats {
+  display: flex;
+  gap: 32px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.about-stats div {
+  background-color: #fff;
+  padding: 14px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  text-align: center;
+  flex: 1 1 120px;
+}
+
+.about-stats h3 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #d5a373;
+  font-weight: 700;
+}
+
+.about-stats p {
+  margin: 6px 0 0;
+  font-size: 14px;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .about-stats {
+    justify-content: center;
+    gap: 16px;
+  }
+}
+.testimonials {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.testimonial-heading {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #d5a373;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 40px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.testimonial {
+  background: #f9f6f1;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonial img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+.testimonial blockquote {
+  font-style: italic;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.client-name {
+  display: block;
+  margin-top: 8px;
+  font-weight: bold;
+  color: #d5a373;
+}
+.scrolling-wrapper {
+  overflow: hidden;
+  width: 100%;
+  padding: 20px 0;
+  position: relative;
+}
+
+.scrolling-track {
+  display: flex;
+  gap: 24px;
+  animation: scroll-left 40s linear infinite;
+  width: max-content;
+}
+
+.service-card {
+  flex: 0 0 auto;
+  width: 280px;
+  background: #fff;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.service-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.service-card h3 {
+  margin: 12px 0 8px;
+  font-size: 1.2rem;
+  color: #d5a373;
+}
+
+.service-card .desc {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Animation */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

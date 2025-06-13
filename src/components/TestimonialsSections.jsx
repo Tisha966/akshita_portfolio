@@ -2,7 +2,6 @@ import React from 'react';
 
 function TestimonialsSections() {
   const testimonials = [
-   
     {
       img: '/images/hero3.jpg',
       text: '“Professional, warm, and extremely talented. My go-to for every event now.”',
@@ -27,7 +26,10 @@ function TestimonialsSections() {
 
   return (
     <section className="testimonials">
-      <h2 className="testimonial-heading">What Clients Say</h2>
+      <h2 className="testimonial-heading">Voices of Elegance & Confidence</h2>
+      <p className="testimonial-subtext">
+        Real words from beautiful souls I've had the joy to work with ✨
+      </p>
       <div className="testimonial-grid">
         {testimonials.map((item, index) => (
           <div className="testimonial" key={index}>

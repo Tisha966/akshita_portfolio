@@ -5,9 +5,10 @@ function HeroSection() {
   return (
     <section className="hero">
       <div className="image-row">
-        <img src={`${process.env.PUBLIC_URL}/images/hero1.jpg`} alt="makeup1" />
-        <img src={`${process.env.PUBLIC_URL}/images/hero3.jpg`} alt="makeup3" />
-        <img src={`${process.env.PUBLIC_URL}/images/hero2.jpg`} alt="makeup2" />
+        
+        <img src={`${process.env.PUBLIC_URL}/images/img1.jpg`} alt="makeup3" />
+        <img src={`${process.env.PUBLIC_URL}/images/img3.jpg`} alt="makeup1" />
+        <img src={`${process.env.PUBLIC_URL}/images/img.jpg`} alt="makeup2" />
         
       </div>
  <h2

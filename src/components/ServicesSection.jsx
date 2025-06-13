@@ -18,7 +18,17 @@ function ServicesSection() {
       desc: 'An elegant, long-lasting look for evening parties, corporate events, or formal occasions.',
     },
     {
-      img: '/images/hero2.jpg',
+      img: '/images/img.jpg',
+      title: 'Bridal Makeup',
+      desc: 'A timeless bridal transformation tailored to your outfit and vision. Trials available on request.',
+    },
+     {
+      img: '/images/img1.jpg',
+      title: 'Bridal Makeup',
+      desc: 'A timeless bridal transformation tailored to your outfit and vision. Trials available on request.',
+    },
+     {
+      img: '/images/img3.jpg',
       title: 'Bridal Makeup',
       desc: 'A timeless bridal transformation tailored to your outfit and vision. Trials available on request.',
     },
@@ -41,7 +51,7 @@ function ServicesSection() {
           ))}
         </div>
       </div>
-      <button className="book-btn">Contact me for a booking</button>
+      
     </section>
   );
 }

@@ -594,3 +594,160 @@ blockquote {
     transform: translateX(-50%);
   }
 }
+.about {
+  background-color: #f3e9e1;
+  padding: 80px 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+.about-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: 0 auto;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.about-content-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-content-left h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-content-left p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #d5a373;
+  font-weight: 600;
+}
+
+.about-stats-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  flex: 0.5;
+  min-width: 200px;
+}
+
+.stat-box {
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.stat-box h3 {
+  font-size: 2rem;
+  color: #d5a373;
+  margin: 0;
+}
+
+.stat-box p {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-stats-right {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .stat-box {
+    margin: 10px;
+    min-width: 120px;
+  }
+}
+.stat-box {
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  min-width: 160px;
+}
+
+.stat-box h3 {
+  font-size: 2rem;
+  color: #d5a373;
+  margin: 0;
+}
+
+.stat-box p {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.stat-box:hover {
+  background-color: #a1866f; /* dark beige/brown */
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.stat-box:hover h3,
+.stat-box:hover p {
+  color: white;
+}
+.about-stats-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  flex: 0.5;
+  min-width: 200px;
+}
+
+@media (max-width: 768px) {
+  .about-stats-right {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+
+  .stat-box {
+    margin: 10px;
+    flex: 1 1 45%;
+  }
+}
+
+.testimonial-heading {
+  text-align: center;
+  font-size: 2rem;
+  color: #7a4f2c; /* dark beige/brown like About section hover */
+  margin-bottom: 0.3rem; /* reduced spacing below heading */
+}
+
+.testimonial-subtext {
+  text-align: center;
+  color: #d5a373;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 0; /* removes default top margin */
+}

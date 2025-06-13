@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/akshita_portfolio/static/css/main.19587e4b.css",
-    "main.js": "/akshita_portfolio/static/js/main.7bab32ad.js",
+    "main.js": "/akshita_portfolio/static/js/main.3423ca05.js",
     "index.html": "/akshita_portfolio/index.html",
     "main.19587e4b.css.map": "/akshita_portfolio/static/css/main.19587e4b.css.map",
-    "main.7bab32ad.js.map": "/akshita_portfolio/static/js/main.7bab32ad.js.map"
+    "main.3423ca05.js.map": "/akshita_portfolio/static/js/main.3423ca05.js.map"
   },
   "entrypoints": [
     "static/css/main.19587e4b.css",
-    "static/js/main.7bab32ad.js"
+    "static/js/main.3423ca05.js"
   ]
 }

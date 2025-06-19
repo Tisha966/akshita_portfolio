@@ -7,6 +7,7 @@ import AboutSection from './components/AboutSection';
 import ServicesSection from './components/ServicesSection';
 import Footer from './components/Footer';
 import TestimonialsSections from './components/TestimonialsSections';
+import ModelShootSection from './components/ModelShootSection';
 
 
 function AkshitaPortfolio() {
@@ -29,6 +30,9 @@ function AkshitaPortfolio() {
 </section>
 <section id="services">
   <ServicesSection />
+</section>
+<section id="services">
+  <ModelShootSection />
 </section>
 <section id="testimonials">
   <TestimonialsSections />

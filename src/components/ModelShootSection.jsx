@@ -9,10 +9,7 @@ function ModelShootSection() {
     '/images/4_aksh.jpg',
     '/images/5_aksh.jpg',
     '/images/6_aksh.jpg',
-    '/images/1_aksh.jpg',
-    '/images/2_aksh.jpg',
-    '/images/3_aksh.jpg',
-    '/images/4_aksh.jpg',
+    
   ];
 
   return (
